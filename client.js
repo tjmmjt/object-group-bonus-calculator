@@ -32,7 +32,7 @@ const employees = [
   }
 ];
 
-console.log('array of employee data: ', employees);
+// console.log('array of employee data: ', employees);
 
 
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
@@ -44,7 +44,8 @@ console.log('array of employee data: ', employees);
 // Ask questions when you don't.
 
 for (let person of employees) {
-  console.log('Current person is:', person); // LOOP OVER EMPLOYEES  
+  console.log('Current person is:', person); // LOOP OVER EMPLOYEES
+  calculateIndividualEmployeeBonus(person);
 }
 
 
@@ -108,4 +109,4 @@ function calculateIndividualEmployeeBonus(employee) {
 }
 
 // Test
-calculateIndividualEmployeeBonus(employees[2])
+// calculateIndividualEmployeeBonus(employees[2])
